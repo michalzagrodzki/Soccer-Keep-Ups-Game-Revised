@@ -11,6 +11,7 @@ Software needed to play or manipulate
 ===
 
 Corona SDK v.3.0.0, build: 2014.2511
+
 Sublime text 2
   for Sublime text you need Corona Editor
   
