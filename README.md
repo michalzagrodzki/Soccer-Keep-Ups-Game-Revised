@@ -12,7 +12,7 @@ Software needed to play or manipulate
 ===
 
 1. Corona SDK v.3.0.0, build: 2014.2511
-2. Sublime text 2 + Corona Editor Plugin
+2. Sublime Text 2 + Corona Editor Plugin
 
 How to install
 ===
