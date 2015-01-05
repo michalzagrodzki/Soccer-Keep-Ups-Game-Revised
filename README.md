@@ -25,9 +25,9 @@ Changes I have made to original code
 ===
 
 1. Major reason for putting this code in this repository is updating code to Corona SDK v.3.0.0.
-2. Updated the code related to grouping elements between lines 88-91.
-3. Changed names of variables to full names, for better understanding. 
-4. Changed code on line 214 - now it goes back to main menu after 6 seconds (originally it just stopped)
-5. Corrected positions of buttons in Main Menu, position of score during gameplay and position of score when game is finished.
-6. Removed repetitions of initialization of variables
+2. Updated the code related to grouping elements between lines 88-91 (main.lua).
+3. Changed names of variables to full names, for better understanding (main.lua). 
+4. Changed code on line 214 - now it goes back to main menu after 6 seconds (originally it just stopped) (main.lua).
+5. Corrected positions of buttons in Main Menu, position of score during gameplay and position of score when game is finished (main.lua).
+6. Removed repetitions of initialization of variables (main.lua).
 7. Everything is commented.
