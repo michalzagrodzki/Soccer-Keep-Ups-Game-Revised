@@ -87,8 +87,8 @@
 		
 		titleView 			= display.newGroup( )											-- Grouping everything
 		titleBackground 	= display.newImage( titleView, "titleBackground.png" )			-- Background picture
-		playButton 			= display.newImage( titleView, "playButton.png", 219, 219 )		-- Button for starting game
-		creditsButton 		= display.newImage( titleView, "creditsButton.png", 205, 273 )	-- Button for credits
+		playButton 			= display.newImage( titleView, "playButton.png", 200, 240 )		-- Button for starting game
+		creditsButton 		= display.newImage( titleView, "creditsButton.png", 198, 290 )	-- Button for credits
 
 			titleBackground.x = display.contentCenterX 			-- Properties for titleBackground image - placing it in center of x 
 			titleBackground.y = display.contentCenterY 			-- Properties for titleBackground image - placing it in center of y 
@@ -139,7 +139,7 @@
 			gameBackground.y = display.contentCenterY
 
 		-- Showing and hiding Instructions
-		instructions = display.newImage( "instructions.png", 44, 214 )
+		instructions = display.newImage( "instructions.png", 85, 260 )
 		transition.from( instructions, {time = 200, alpha = 0.1, onComplete = function() timer.performWithDelay(2000, function() transition.to( instructions, {time = 200, alpha = 0.1, onComplete = function() display.remove(instructions) instructions = nil end }) end) end})
 
 		-- Score Fields
