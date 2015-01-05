@@ -210,8 +210,8 @@
 		-- showing score after game
 		local score = display.newText( scoreField.text, (display.contentWidth * 0.5) - 8, (display.contentHeight * 0.5), "Marker Felt", 18 )
 
-		-- wait 3 seconds to stop physics
-		timer.performWithDelay( 10000, function() Main( ) end, 1 )	
+		-- wait 6 seconds to return to Main Menu
+		timer.performWithDelay( 6000, function() Main( ) end, 1 )	
 	end
 
 -- Calling main function and starting game
