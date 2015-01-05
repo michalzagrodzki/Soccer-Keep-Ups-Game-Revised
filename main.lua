@@ -143,7 +143,7 @@
 		transition.from( instructions, {time = 200, alpha = 0.1, onComplete = function() timer.performWithDelay(2000, function() transition.to( instructions, {time = 200, alpha = 0.1, onComplete = function() display.remove(instructions) instructions = nil end }) end) end})
 
 		-- Score Fields
-		scoreField = display.newText( "0", 62, 295, "Marker Felt", 16 )
+		scoreField = display.newText( "0", 70, 306, "Marker Felt", 16 )
 		scoreField:setTextColor( 255, 204, 0 )
 
 		-- Ball
@@ -208,7 +208,7 @@
 		-- making transition from initial state to alertView
 		transition.from( alertView, {time = 300, xScale = 0.5, yScale = 0.5 } )
 		-- showing score after game
-		local score = display.newText( scoreField.text, (display.contentWidth * 0.5) - 8, (display.contentHeight * 0.5), "Marker Felt", 18 )
+		local score = display.newText( scoreField.text, (display.contentWidth * 0.5) - 110, (display.contentHeight * 0.5) - 40, "Marker Felt", 18 )
 
 		-- wait 6 seconds to return to Main Menu
 		timer.performWithDelay( 6000, function() Main( ) end, 1 )	
