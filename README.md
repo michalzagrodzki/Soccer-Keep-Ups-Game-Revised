@@ -7,5 +7,19 @@ link to tutorial: http://code.tutsplus.com/tutorials/corona-sdk-build-a-soccer-k
 
 All copyrights regarding code and assets: Carlos Yanez.
 
-HOW TO INSTALL
+Software needed to play or manipulate
+===
+
+Corona SDK v.3.0.0, build: 2014.2511
+Sublime text 2
+  for Sublime text you need Corona Editor
+  
+how to install
+===
+
+1. Download ZIP on your right-hand side or Clone in Desktop
+2. Open in Corona SDK
+3. Play
+
+changes I have made to original code
 ===
