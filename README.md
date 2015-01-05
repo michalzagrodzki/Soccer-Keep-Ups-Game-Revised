@@ -7,4 +7,5 @@ link to tutorial: http://code.tutsplus.com/tutorials/corona-sdk-build-a-soccer-k
 
 All copyrights regarding code and assets: Carlos Yanez.
 
-
+HOW TO INSTALL
+===
